@@ -26,7 +26,7 @@ public class Admin {
                 ", address='" + address + '\'' +
                 ", email='" + email + '\'' +
                 '}';
-    }
+    }//重载toString
 
     public static void main(String[] args) {
 
