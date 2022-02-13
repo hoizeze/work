@@ -1,0 +1,13 @@
+import java.util.HashSet;
+
+public class hash {
+    public static void main(String[] args) {
+        HashSet A = new HashSet();
+        int [] arr = {1,2,1,2,3,5,7,8,7};
+        for (int i = 0;i< arr.length;i++)
+        {
+            A.add(arr[i]);
+        }
+        System.out.println(A);
+    }
+}
