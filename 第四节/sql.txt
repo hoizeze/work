@@ -1,0 +1,4 @@
+insert into student(sNo,sName,sex,classNo) values('1','小侯','男','1班');
+update student set classNo='3班' where sNo='1'
+delete from student where sNo='1';
+SELECT * from student
